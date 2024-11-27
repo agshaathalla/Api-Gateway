@@ -11,7 +11,7 @@
       "name": "Dr. John Smith",
       "time": "11:00 - 13:00",
       "hospital": "Grand Oak",
-      "status": "Busy",
+      "status": "Available",
       "doctorType": "Neurologist"
     },
     {
@@ -32,7 +32,7 @@
       "name": "Dr. Sophia Williams",
       "time": "17:00 - 19:00",
       "hospital": "Grand Oak",
-      "status": "Busy",
+      "status": "Available",
       "doctorType": "Orthopedic"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Dr. James Martinez",
       "time": "23:00 - 01:00",
       "hospital": "Grand Oak",
-      "status": "Busy",
+      "status": "Available",
       "doctorType": "Cardiologist"
     }
   ]
