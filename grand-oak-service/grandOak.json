@@ -1,6 +1,7 @@
 {
   "doctor": [
     {
+      "id": 1,
       "name": "Dr. Alice Brown",
       "time": "09:00 - 11:00",
       "hospital": "Grand Oak",
@@ -8,6 +9,7 @@
       "doctorType": "Cardiologist"
     },
     {
+      "id": 2,
       "name": "Dr. John Smith",
       "time": "11:00 - 13:00",
       "hospital": "Grand Oak",
@@ -15,6 +17,7 @@
       "doctorType": "Neurologist"
     },
     {
+      "id": 3,
       "name": "Dr. Emily Davis",
       "time": "13:00 - 15:00",
       "hospital": "Grand Oak",
@@ -22,6 +25,7 @@
       "doctorType": "Neurologist"
     },
     {
+      "id": 4,
       "name": "Dr. Michael Johnson",
       "time": "15:00 - 17:00",
       "hospital": "Grand Oak",
@@ -29,6 +33,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 5,
       "name": "Dr. Sophia Williams",
       "time": "17:00 - 19:00",
       "hospital": "Grand Oak",
@@ -36,6 +41,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 6,
       "name": "Dr. David Miller",
       "time": "19:00 - 21:00",
       "hospital": "Grand Oak",
@@ -43,6 +49,7 @@
       "doctorType": "Cardiologist"
     },
     {
+      "id": 7,
       "name": "Dr. Olivia Wilson",
       "time": "21:00 - 23:00",
       "hospital": "Grand Oak",
@@ -50,6 +57,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 8,
       "name": "Dr. James Martinez",
       "time": "23:00 - 01:00",
       "hospital": "Grand Oak",

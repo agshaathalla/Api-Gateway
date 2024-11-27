@@ -1,6 +1,7 @@
 {
   "doctor": [
     {
+      "id": 1,
       "name": "Dr. Amelia Clarke",
       "time": "08:00 - 10:00",
       "hospital": "Pine Valley",
@@ -8,6 +9,7 @@
       "doctorType": "Cardiologist"
     },
     {
+      "id": 2,
       "name": "Dr. Liam Thompson",
       "time": "10:00 - 12:00",
       "hospital": "Pine Valley",
@@ -15,6 +17,7 @@
       "doctorType": "Neurologist"
     },
     {
+      "id": 3,
       "name": "Dr. Charlotte Martinez",
       "time": "12:00 - 14:00",
       "hospital": "Pine Valley",
@@ -22,6 +25,7 @@
       "doctorType": "Neurologist"
     },
     {
+      "id": 4,
       "name": "Dr. Benjamin Harris",
       "time": "14:00 - 16:00",
       "hospital": "Pine Valley",
@@ -29,6 +33,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 5,
       "name": "Dr. Isabella White",
       "time": "16:00 - 18:00",
       "hospital": "Pine Valley",
@@ -36,6 +41,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 6,
       "name": "Dr. Ethan Lopez",
       "time": "18:00 - 20:00",
       "hospital": "Pine Valley",
@@ -43,6 +49,7 @@
       "doctorType": "Cardiologist"
     },
     {
+      "id": 7,
       "name": "Dr. Sophia Walker",
       "time": "20:00 - 22:00",
       "hospital": "Pine Valley",
@@ -50,6 +57,7 @@
       "doctorType": "Orthopedic"
     },
     {
+      "id": 8,
       "name": "Dr. Lucas Scott",
       "time": "22:00 - 00:00",
       "hospital": "Pine Valley",
