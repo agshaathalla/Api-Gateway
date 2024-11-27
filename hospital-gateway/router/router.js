@@ -12,37 +12,37 @@ router.get("/", (req, res) => {
 
 router.get("/doctors", async (req, res) => {
     const data = [];
-    const [pineValleyData, grandOakData] = await Promise.all([
-        axios.get(`${API_PINE_VALLEY}/doctors`),
-        axios.post(`${API_GRAND_OAK}/doctors`, {doctorType:""})
-    ]).catch(error => {
-        return res.status(500).send("Internal Server Error");
-    });
+    const grandOakData= await axios.get(`${API_GRAND_OAK }/doctors`).then(res => {
+            return res;
+        }).catch(error=>res.status(500).send(`Error ${error}`));
+    const pineValleyData= await axios.post(`${API_PINE_VALLEY}/doctors`, {doctorType:""}).then(res => {
+            return res;
+        }).catch(error=>res.status(500).send(`Error ${error}`));
 
-    data.push(...pineValleyData.data);
+
+    data.push(...pineValleyData.data.doctors);
     data.push(...grandOakData.data);    
     
     res.status(200).send(data);
 });
 
 router.get("/doctors/:doctorType", async (req, res) => {
-    const doctorType = req.params.doctorType;
     const data = [];
+    const grandOakData= await axios.get(`${API_GRAND_OAK }/doctors/${req.params.doctorType}`).then(res => {
+            return res;
+        }).catch(error=>res.status(500).send(`Error ${error}`));
+    const pineValleyData= await axios.post(`${API_PINE_VALLEY}/doctors`, {doctorType:req.params.doctorType}).then(res => {
+            return res;
+        }).catch(error=>res.status(500).send(`Error ${error}`));
 
-    const [pineValleyData, grandOakData] = await Promise.all([
-        axios.get(`${API_PINE_VALLEY}/doctors/${doctorType}`),
-        axios.post(`${API_GRAND_OAK}/doctors/${doctorType}`, {doctorType: doctorType})
-    ]).catch(error => {
-        return res.status(500).send("Internal Server Error");
-    });
-    
-    data.push(...pineValleyData.data);
+
+    data.push(...pineValleyData.data.doctors);
     data.push(...grandOakData.data);    
     
     res.status(200).send(data);
 });
 
-router.post("book", (req, res) => {
+router.post("/book", (req, res) => {
     const id = req.body.id;
     const hospital = req.body.hospital;
     switch (hospital){
