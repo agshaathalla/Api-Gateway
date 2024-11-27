@@ -1,62 +1,60 @@
 {
-    "doctors": {
-        "doctor": [
-            {
-              "name": "Dr. Alice Brown",
-              "time": "09:00 - 11:00",
-              "hospital": "Grand Oak",
-              "status": "Available",
-              "doctorType": "Cardiologist"
-            },
-            {
-              "name": "Dr. John Smith",
-              "time": "11:00 - 13:00",
-              "hospital": "Grand Oak",
-              "status": "Busy",
-              "doctorType": "Neurologist"
-            },
-            {
-              "name": "Dr. Emily Davis",
-              "time": "13:00 - 15:00",
-              "hospital": "Grand Oak",
-              "status": "Available",
-              "doctorType": "Neurologist"
-            },
-            {
-              "name": "Dr. Michael Johnson",
-              "time": "15:00 - 17:00",
-              "hospital": "Grand Oak",
-              "status": "Available",
-              "doctorType": "Orthopedic"
-            },
-            {
-              "name": "Dr. Sophia Williams",
-              "time": "17:00 - 19:00",
-              "hospital": "Grand Oak",
-              "status": "Busy",
-              "doctorType": "Orthopedic"
-            },
-            {
-              "name": "Dr. David Miller",
-              "time": "19:00 - 21:00",
-              "hospital": "Grand Oak",
-              "status": "Available",
-              "doctorType": "Cardiologist"
-            },
-            {
-              "name": "Dr. Olivia Wilson",
-              "time": "21:00 - 23:00",
-              "hospital": "Grand Oak",
-              "status": "Available",
-              "doctorType": "Orthopedic"
-            },
-            {
-              "name": "Dr. James Martinez",
-              "time": "23:00 - 01:00",
-              "hospital": "Grand Oak",
-              "status": "Busy",
-              "doctorType": "Cardiologist"
-            }
-        ]
+  "doctor": [
+    {
+      "name": "Dr. Alice Brown",
+      "time": "09:00 - 11:00",
+      "hospital": "Grand Oak",
+      "status": "Available",
+      "doctorType": "Cardiologist"
+    },
+    {
+      "name": "Dr. John Smith",
+      "time": "11:00 - 13:00",
+      "hospital": "Grand Oak",
+      "status": "Busy",
+      "doctorType": "Neurologist"
+    },
+    {
+      "name": "Dr. Emily Davis",
+      "time": "13:00 - 15:00",
+      "hospital": "Grand Oak",
+      "status": "Available",
+      "doctorType": "Neurologist"
+    },
+    {
+      "name": "Dr. Michael Johnson",
+      "time": "15:00 - 17:00",
+      "hospital": "Grand Oak",
+      "status": "Available",
+      "doctorType": "Orthopedic"
+    },
+    {
+      "name": "Dr. Sophia Williams",
+      "time": "17:00 - 19:00",
+      "hospital": "Grand Oak",
+      "status": "Busy",
+      "doctorType": "Orthopedic"
+    },
+    {
+      "name": "Dr. David Miller",
+      "time": "19:00 - 21:00",
+      "hospital": "Grand Oak",
+      "status": "Available",
+      "doctorType": "Cardiologist"
+    },
+    {
+      "name": "Dr. Olivia Wilson",
+      "time": "21:00 - 23:00",
+      "hospital": "Grand Oak",
+      "status": "Available",
+      "doctorType": "Orthopedic"
+    },
+    {
+      "name": "Dr. James Martinez",
+      "time": "23:00 - 01:00",
+      "hospital": "Grand Oak",
+      "status": "Busy",
+      "doctorType": "Cardiologist"
     }
+  ]
 }
